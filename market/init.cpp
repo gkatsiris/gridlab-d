@@ -14,6 +14,7 @@
 #include "passive_controller.h"
 #include "double_controller.h"
 #include "stub_bidder.h"
+#include "tripmtr_bidder.h"
 #include "generator_controller.h"
 #include "supervisory_control.h"
 
@@ -37,6 +38,7 @@ EXPORT CLASS *init(CALLBACKS *fntable, MODULE *module, int argc, char *argv[])
 	new stub_bidder(module);
 	new generator_controller(module);
 	new supervisory_control(module);
+	new tripmtr_bidder(module);
 
 	/*** DO NOT EDIT NEXT LINE ***/
 	//NEWCLASS

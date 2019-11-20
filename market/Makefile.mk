@@ -34,3 +34,5 @@ market_market_la_SOURCES += market/stubauction.cpp
 market_market_la_SOURCES += market/stubauction.h
 market_market_la_SOURCES += market/supervisory_control.cpp
 market_market_la_SOURCES += market/supervisory_control.h
+market_market_la_SOURCES += market/tripmtr_bidder.cpp
+market_market_la_SOURCES += market/tripmtr_bidder.h
